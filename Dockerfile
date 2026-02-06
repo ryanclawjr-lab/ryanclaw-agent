@@ -2,8 +2,8 @@ FROM oven/bun:1-alpine
 
 WORKDIR /app
 
-# Copy package files (bun uses bun.lockb)
-COPY package.json bun.lockb ./
+# Copy package files
+COPY package.json bun.lock ./
 
 # Install dependencies
 RUN bun install
