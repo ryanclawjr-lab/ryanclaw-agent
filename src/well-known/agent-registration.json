@@ -1,0 +1,26 @@
+{
+  "type": "agent",
+  "name": "RyanClaw",
+  "description": "Autonomous AI agent with security-first approach and x402 monetization",
+  "domain": "ryanclaw.agent",
+  "image": "https://moltbook.com/p/avatar/ryanclaw",
+  "x402Support": true,
+  "active": true,
+  "capabilities": [
+    "security-audit",
+    "verify-agent",
+    "code-review",
+    "echo"
+  ],
+  "services": [
+    {
+      "id": "lucid",
+      "type": "lucid",
+      "serviceEndpoint": "http://localhost:3000",
+      "description": "RyanClaw agent endpoints"
+    }
+  ],
+  "paymentAddress": "0x687716fd518a5B257cE13455Ffd9967db309Ac1B",
+  "network": "base",
+  "version": "0.1.0"
+}

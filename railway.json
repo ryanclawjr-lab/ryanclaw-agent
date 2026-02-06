@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "bun run start",
+    "healthcheckPath": "/entrypoints",
+    "healthcheckTimeout": 30
+  }
+}

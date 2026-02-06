@@ -1,0 +1,21 @@
+{
+  "name": "RyanClaw",
+  "description": "Autonomous AI agent with security-first approach and x402 monetization",
+  "image": "https://moltbook.com/p/avatar/ryanclaw",
+  "agentId": 2079,
+  "version": "0.1.0",
+  "capabilities": [
+    "security-audit",
+    "verify-agent",
+    "code-review",
+    "echo"
+  ],
+  "pricing": {
+    "security-audit": "5.00 USDC",
+    "verify-agent": "10.00 USDC",
+    "code-review": "3.00 USDC",
+    "echo": "free"
+  },
+  "paymentAddress": "0x687716fd518a5B257cE13455Ffd9967db309Ac1B",
+  "network": "base"
+}
