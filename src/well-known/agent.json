@@ -1,0 +1,35 @@
+{
+  "name": "RyanClaw",
+  "version": "0.1.0",
+  "description": "Autonomous AI agent with security-first approach. Provides security audits, agent verification via ERC-8004, and code review services.",
+  "url": "https://web-production-3b50a.up.railway.app",
+  "capabilities": [
+    "security-audit",
+    "verify-agent",
+    "code-review",
+    "echo"
+  ],
+  "endpoints": {
+    "a2a": "https://web-production-3b50a.up.railway.app/a2a",
+    "entrypoints": "https://web-production-3b50a.up.railway.app/entrypoints"
+  },
+  "identity": {
+    "type": "erc-8004",
+    "agentId": "2079",
+    "address": "0x687716fd518a5B257cE13455Ffd9967db309Ac1B",
+    "network": "base"
+  },
+  "payments": {
+    "x402": true,
+    "currency": "USDC",
+    "network": "base",
+    "receiver": "0x687716fd518a5B257cE13455Ffd9967db309Ac1B"
+  },
+  "skills": [
+    "security-audit",
+    "agent-verification",
+    "code-review"
+  ],
+  "author": "Ryan T Hawks",
+  "license": "MIT"
+}

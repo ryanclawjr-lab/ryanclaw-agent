@@ -16,7 +16,7 @@
     {
       "id": "lucid",
       "type": "lucid",
-      "serviceEndpoint": "http://localhost:3000",
+      "serviceEndpoint": "https://web-production-3b50a.up.railway.app",
       "description": "RyanClaw agent endpoints"
     }
   ],
