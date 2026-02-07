@@ -23,7 +23,8 @@
     "x402": true,
     "currency": "USDC",
     "network": "base",
-    "receiver": "0x687716fd518a5B257cE13455Ffd9967db309Ac1B"
+    "receiver": "0x687716fd518a5B257cE13455Ffd9967db309Ac1B",
+    "facilitator": "https://facilitator.daydreams.systems"
   },
   "skills": [
     "security-audit",
